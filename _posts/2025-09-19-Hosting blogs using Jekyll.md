@@ -1,11 +1,10 @@
 ---
 title: Hosting blogs using Jekyll
 date: 2025-09-19
-categories: "[Tech]"
-tags:
 author: rajneesh304
-description: This is a guide on hosting obsidian notes using Jekyll
+category: "[Tech]"
 ---
+
 # Introduction
 I am maintaining my blogs inside an `obsidian` vault. I want my `Jekyll` website to pick up blogs from a particular directory in that vault periodically. I am syncing that vault to github. 
 # Prereqs
@@ -22,6 +21,7 @@ Since the workflow needs to access and write to a private repository, we must cr
 4. Set an expiration date for the token.
 5. Under **Select scopes**, check the box for `repo`. This gives the token read and write access to our private repositories.
 6. Click **Generate token** and **copy the token value immediately**.
+
 ## Step 2: Add the PAT to Obsidian Repository Secrets
 We must store the token as a secret in our Obsidian repository to keep it secure.
 1. Navigate to the **Obsidian repository** on GitHub.
@@ -30,11 +30,13 @@ We must store the token as a secret in our Obsidian repository to keep it secure
 4. In the "Name" field, type `JEKYLL_SYNC_TOKEN`.
 5. In the "Value" field, paste the token copied in the previous step.
 6. Click **Add secret**.
+
 ## Step 3: Create the GitHub Actions Workflow File
 Now we'll create a YAML file that defines the sync workflow. This file lives in the `.github/workflows/` directory of our **Obsidian vault repository**.
 1. In the local Obsidian vault repository, create a new directory named `.github/workflows`.
 2. Inside this new directory, create a file named `sync-to-jekyll.yml`.
 3. Paste the following code into the `sync-to-jekyll.yml` file:
+
 ```yaml
 name: Sync to Jekyll
 
