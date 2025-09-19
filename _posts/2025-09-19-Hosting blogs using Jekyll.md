@@ -4,7 +4,7 @@ date: 2025-09-19
 categories: "[Tech]"
 tags:
 author: rajneesh304
-description:
+description: This is a guide on hosting obsidian notes using Jekyll
 ---
 # Introduction
 I am maintaining my blogs inside an `obsidian` vault. I want my `Jekyll` website to pick up blogs from a particular directory in that vault periodically. I am syncing that vault to github. 
