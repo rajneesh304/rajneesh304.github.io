@@ -1,14 +1,20 @@
 ---
 title: Hosting blogs using Jekyll
-date: 2025-09-19
 author: rajneesh304
-category: "[Tech]"
+date: 2025-09-19
+tags:
+  - Obsidian
+  - CI/CD
+  - GitHub
+  - GithubActions
+  - Jekyll
+category:
+  - Tech
 ---
-
 # Introduction
 I am maintaining my blogs inside an `obsidian` vault. I want my `Jekyll` website to pick up blogs from a particular directory in that vault periodically. I am syncing that vault to github. 
-# Prereqs
 
+# Prerequisites
 1. Basic Jekyll Setup
 2. A repo which contains blog posts
 
