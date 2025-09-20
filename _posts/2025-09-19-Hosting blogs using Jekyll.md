@@ -5,11 +5,11 @@ date: 2025-09-19
 tags:
   - Obsidian
   - CI/CD
-  - GitHub
   - GithubActions
   - Jekyll
 category:
   - Tech
+description: This blog is a technical guide for setting up an automated sync between an Obsidian vault and a Jekyll blog site using GitHub Actions.
 ---
 # Introduction
 I am maintaining my blogs inside an `obsidian` vault. I want my `Jekyll` website to pick up blogs from a particular directory in that vault periodically. I am syncing that vault to github. 
