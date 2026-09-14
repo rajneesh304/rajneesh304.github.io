@@ -39,14 +39,14 @@ Here is the estimated nutritional breakdown for the entire batch and per serving
 
 ### Ingredients
 
-| Ingredient | Quantity | Purpose / Role |
-| :--- | :--- | :--- |
-| **Maida (All-Purpose Flour)** | 100 g | Provides base starch, texture, and crumb softness |
-| **Vital Wheat Gluten (VWG)** | 50 g | Supercharges protein content (~75-80% protein by weight) and gives dough structure |
-| **Skimmed Milk Powder** | 50 g | Adds dairy protein, subtle sweetness, and aids browning |
-| **Water** | 150 g (ml) | Hydration (~75% hydration for soft crumb) |
-| **Instant Dry Yeast** | 2 g | Leavening agent for airy rise |
-| **Salt** | 2 g | Regulates yeast activity and enhances flavor |
+| Ingredient                    | Quantity   | Purpose / Role                                                                     |
+| :---------------------------- | :--------- | :--------------------------------------------------------------------------------- |
+| **Maida (All-Purpose Flour)** | 100 g      | Provides base starch, texture, and crumb softness                                  |
+| **Vital Wheat Gluten (VWG)**  | 50 g       | Supercharges protein content (~75-80% protein by weight) and gives dough structure |
+| **Skimmed Milk Powder**       | 50 g       | Adds dairy protein, subtle sweetness, and aids browning                            |
+| **Water**                     | 150 g (ml) | Hydration (~75% hydration for soft crumb)                                          |
+| **Instant Dry Yeast**         | 2 g        | Leavening agent for airy rise                                                      |
+| **Salt**                      | 2 g        | Regulates yeast activity and enhances flavor                                       |
 
 ### Equipment
 - **Digital Kitchen Weighing Scale** (essential for precision with gluten ratios)
